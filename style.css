@@ -1,27 +1,49 @@
-.heading{
-    text-align: center;
-}
-.container{
+body{
+    padding: 0;
+    margin: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    background-color: rgb(243, 218, 222);
 }
-.btn{
-    width: 66px;
-    padding: 20px;
-    margin: 0px 5px;
-    border: 3px solid black;
-    border-radius: 20%;
-    cursor: pointer;
+.container{
+    width: 45%;
+    height: 45vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 20px rgb(244, 234, 236),
+                -12px -12px 20px rgb(136, 108, 112);
 }
-.row{
-    margin: 8px 0px;
+.display #screen{
+    width: 97%;
+    height: 70px;
+    font: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5rem;
+    background-color: rgb(221, 211, 211);
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px rgb(240, 236, 236),
+                inset -8px -8px 8px rgb(142, 139, 139);
 }
-.input{
-    width: 20vw;
-    margin-top: 5px;
-    padding: 10px 0px 10px 0px;
-    border: 5px solid black;
-    font-size: 20px;
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.7rem;
+    flex-direction: column;
+}
+.btns .row button{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgb(228, 221, 222),
+                -5px -5px 5px rgb(183, 153, 157);
 }
